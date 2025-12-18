@@ -1,16 +1,77 @@
-# React + Vite
+# Modern Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, responsive developer portfolio built with React, Vite, and Tailwind CSS. This project features a modern "glassmorphism" design, interactive spotlight effects, and a seamless browsing experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Modern UI/UX**: Custom gradient cards with glassmorphism and mouse-following spotlight effects.
+-   **Responsive Design**: Fully responsive layout that adapts to mobile, tablet, and desktop screens.
+-   **Project Filtering**: Filter projects by category (Front-end, Back-end, Full-stack, AI).
+-   **Detailed Project Views**: Dedicated pages for each project with deep linking.
+-   **Interactive Skills Section**: Visual representation of technical skills with circular progress indicators.
+-   **Smooth Animations**: Scroll animations and hover effects for an engaging user experience.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **Framework**: [React](https://react.dev/) (v19)
+-   **Build Tool**: [Vite](https://vitejs.dev/)
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/) (v4)
+-   **Routing**: [React Router](https://reactrouter.com/)
+-   **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
 
-## Expanding the ESLint configuration
+## 💻 Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to get the project running on your local machine.
+
+### Prerequisites
+
+-   Node.js (v18 or higher)
+-   npm or yarn
+
+### Steps
+
+1.  **Clone the repository**
+    ```bash
+    git clone <repository-url>
+    cd portfolio
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server**
+    ```bash
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173`.
+
+4.  **Build for production**
+    To create an optimized build for deployment:
+    ```bash
+    npm run build
+    ```
+
+## 📁 Project Structure
+
+```
+src/
+├── components/      # Reusable UI components
+│   ├── common/      # Buttons, Cards
+│   ├── hero/        # Hero section components
+│   ├── layout/      # Navbar, Footer
+│   ├── projects/    # Project grid and cards
+│   └── skills/      # Skill visualization
+├── data/            # Static data for projects and skills
+├── pages/           # Route pages (Home, Projects, Contact)
+└── styles/          # Global styles and animations
+```
+
+## 🎨 Customization
+
+-   **Projects**: Edit `src/data/projects.js` to add or modify your projects.
+-   **Skills**: Update `src/data/skills.js` to change your skills and proficiency levels.
+-   **Theme**: Modify `src/index.css` and `src/styles/utilities.css` to adjust colors and fonts.
+
+
