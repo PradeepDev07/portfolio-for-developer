@@ -15,7 +15,7 @@ const ArcHero = () => {
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-purple-500/30 blur-[60px] rounded-full" />
 
                     <div className="relative z-10 animate-float">
-                        <div className="relative w-32 h-32 md:w-44 md:h-44 rounded-full md:rounded-[2rem] p-1.5 bg-gradient-to-br from-white/20 via-purple-500/20 to-white/5 backdrop-blur-sm border border-white/10 shadow-2xl transition-all duration-500 hover:scale-105">
+                        <div className="relative w-32 h-32 hover:h-50 md:w-44 md:h-44 rounded-full  md:rounded-[2rem] p-1.5 bg-gradient-to-br from-white/20 via-purple-500/20 to-white/5 backdrop-blur-sm border border-white/10 shadow-2xl transition-all duration-500 hover:scale-105">
                             <div className="w-full h-full rounded-full md:rounded-[1.7rem] overflow-hidden border border-white/10 bg-zinc-900/50">
                                 {/*PROFILE IMAGE LOCATED*/} <img
                                     src={portfolioImage}
