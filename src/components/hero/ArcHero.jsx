@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../common/Button';
-import  Logo from '/Portfoliologo.png';
+import Logo from '/Portfoliologo.png';
+import portfolioImage from '/public/portfolioImg2.jpeg';
 
 const ArcHero = () => {
     return (
@@ -17,8 +18,8 @@ const ArcHero = () => {
                     <div className="relative z-10 animate-float">
                         <div className="relative w-32 h-32 md:w-44 md:h-44 rounded-full md:rounded-[2rem] p-1.5 bg-gradient-to-br from-white/20 via-purple-500/20 to-white/5 backdrop-blur-sm border border-white/10 shadow-2xl transition-all duration-500 hover:scale-105">
                             <div className="w-full h-full rounded-full md:rounded-[1.7rem] overflow-hidden border border-white/10 bg-zinc-900/50">
-                               {/*PROFILE IMAGE LOCATED*/} <img
-                                     src={Logo}
+                                {/*PROFILE IMAGE LOCATED*/} <img
+                                    src={portfolioImage}
                                     alt="Developer"
                                     className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity"
                                 />
