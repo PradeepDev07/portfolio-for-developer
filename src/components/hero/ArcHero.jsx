@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '../common/Button';
-import Logo from '/Portfoliologo.png';
 import portfolioImage from '/public/portfolioImg2.jpeg';
 
 const ArcHero = () => {
