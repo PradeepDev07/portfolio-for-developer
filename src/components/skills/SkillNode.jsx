@@ -10,7 +10,7 @@ import {
     FaGitAlt,
     FaCode
 } from 'react-icons/fa';
-import { SiTailwindcss, SiPostgresql, SiTypescript } from 'react-icons/si';
+import { SiTailwindcss, SiPostgresql, SiTypescript, SiMongodb } from 'react-icons/si';
 
 const iconMap = {
     "HTML5": { icon: FaHtml5, color: "#E34F26" },
@@ -24,6 +24,7 @@ const iconMap = {
     "Git": { icon: FaGitAlt, color: "#F05032" },
     "PostgreSQL": { icon: SiPostgresql, color: "#336791" },
     "TypeScript": { icon: SiTypescript, color: "#3178C6" },
+    "MongoDB": { icon: SiMongodb, color: "#47A248" },
 };
 
 const SkillNode = ({ skill }) => {
