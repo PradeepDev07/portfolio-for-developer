@@ -74,4 +74,7 @@ src/
 -   **Skills**: Update `src/data/skills.js` to change your skills and proficiency levels.
 -   **Theme**: Modify `src/index.css` and `src/styles/utilities.css` to adjust colors and fonts.
 
+##Deploy 
+- **vercel** : https://pradeep-developer-portfolio.vercel.app/
+
 
