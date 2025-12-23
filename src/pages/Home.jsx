@@ -19,7 +19,7 @@ const Home = () => {
                 <ArcHero />
 
                 <section ref={projectsRef} className={`py-20 px-6 max-w-7xl mx-auto transition-opacity duration-1000 ${projectsVisible ? 'opacity-100' : 'opacity-0'}`}>
-                    <h2 className="text-3xl font-bold mb-12 text-center">Featured Projects</h2>
+                    <h2 className="text-3xl font-bold mb-12 text-center">Live Projects</h2>
                     <ProjectOrbit />
                 </section>
 
