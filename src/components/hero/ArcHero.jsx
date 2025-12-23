@@ -1,8 +1,9 @@
 import React from 'react';
 import Button from '../common/Button';
-import portfolioImage from '/public/portfolioImg2.jpeg';
+import { useNavigate } from 'react-router-dom';
 
 const ArcHero = () => {
+    const navigate = useNavigate();
     return (
         <div className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
             {/* Background Gradients */}
@@ -18,7 +19,7 @@ const ArcHero = () => {
                         <div className="relative w-32 h-32 hover:h-50 md:w-44 md:h-44 rounded-full  md:rounded-[2rem] p-1.5 bg-gradient-to-br from-white/20 via-purple-500/20 to-white/5 backdrop-blur-sm border border-white/10 shadow-2xl transition-all duration-500 hover:scale-105">
                             <div className="w-full h-full rounded-full md:rounded-[1.7rem] overflow-hidden border border-white/10 bg-zinc-900/50">
                                 {/*PROFILE IMAGE LOCATED*/} <img
-                                    src={portfolioImage}
+                                    src="/portfolioImg2.jpeg"
                                     alt="Developer"
                                     className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity"
                                 />
@@ -48,11 +49,11 @@ const ArcHero = () => {
                     Currently focused on building accessible, human-centered products.
                 </p>
 
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Button variant="primary" className="px-8 py-3 text-base">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center" >
+                    <Button variant="primary" className="px-8 py-3 text-base" onClick={() => { navigate('/projects') }}>
                         View Projects
                     </Button>
-                    <Button variant="outline" className="px-8 py-3 text-base">
+                    <Button variant="outline" className="px-8 py-3 text-base" onClick={() => { navigate('/contact') }}>
                         Contact Me
                     </Button>
                 </div>

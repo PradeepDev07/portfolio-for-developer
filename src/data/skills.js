@@ -5,9 +5,9 @@ export const skills = [
   { name: "React", level: 85, category: "Frontend" },
   { name: "Tailwind CSS", level: 80, category: "Frontend" },
   { name: "Python", level: 80, category: "Language" },
-  { name: "Docker", level: 30, category: "DevOps" },
+  { name: "Docker", level: 40, category: "DevOps" },
   { name: "Git", level: 90, category: "Tool" },
-  { name: "Node.js", level: 70, category: "Backend" },
-  { name: "SQL", level: 75, category: "Database" },
-  { name: "MongoDB", level: 65, category: "Database" },
+  { name: "Node.js", level: 80, category: "Backend" },
+  { name: "SQL", level: 90, category: "Database" },
+  { name: "MongoDB", level: 85, category: "Database" },
 ];
