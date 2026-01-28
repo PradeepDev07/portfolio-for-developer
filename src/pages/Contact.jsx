@@ -107,14 +107,17 @@ const Contact = () => {
                     <Button variant="secondary" className="w-full py-3" disabled={status.loading} type="submit">
                         {status.loading ? 'Sending...' : 'Send Message'}
                     </Button>
-                    <button>
-                        <a href="https://portfolio-chat-bot-jade.vercel.app/">
-                            AI Chatbot
-                        </a>
-                    
-                    </button>
+                  <a
+  href="https://portfolio-chat-bot-jade.vercel.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block px-6 py-3 rounded-xl bg-black text-cyan-400 border border-cyan-400 shadow-[0_0_15px_#22d3ee] hover:bg-cyan-400 hover:text-black transition"
+>
+  🤖 AI Chatbot
+</a>
 
-                    https://portfolio-chat-bot-jade.vercel.app/
+
+
                 </form>
             </main>
             <Footer />
